@@ -21,6 +21,7 @@ font-style: normal;
 font-variant: normal;
 text-transform: none;
 text-decoration: underline black;
+text-align: center;
 }
 
 li {
@@ -105,9 +106,11 @@ min-height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding-bottom: 25px;
-    font-size: small;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    
     
 }
 
@@ -121,13 +124,7 @@ min-height: 100vh;
     margin: 10px;
 }
 
-.fotocv {
-    border-radius: 4cm solid black;
     
-    
-
-}
-
 .idiomas .porciento {
 position: relative;
 width: 100%;
