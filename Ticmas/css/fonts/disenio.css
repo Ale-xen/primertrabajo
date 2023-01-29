@@ -5,7 +5,27 @@
     border-radius: 0.5cm;
 }
 
+.carta{
+    border-radius: inherit;
+    display: flex;
+    background-color: antiquewhite;
+    border: solid gray 6px; 
+    margin: 10%;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    text-align: left center;
+    text-decoration: dotted;
+    text-decoration-color: black bold;
+    font-style: italic;
+    font-size: 20px;
+}
 
+.boton{
+    border-radius: initial;
+    width: 100px;
+    height: 30px;
+}
 
 h2,h3 {
 margin: 25px;
@@ -53,7 +73,9 @@ span {
 
 
 body {
-background-image: url(https://img.freepik.com/foto-gratis/fondo-naranja-abstracto-ondas_1048-1505.jpg?w=1800&t=st=1674599452~exp=1674600052~hmac=ac385f092eaf8cb0c7278998766288ad3d10e66c0bc319f0a5c940fd0c7911b4); border-radius: 1px;
+background-image: url(https://www.todofondos.net/wp-content/uploads/2560x1600-listones-de-madera-blancos-%E2%9D%A4-papel-tapiz-de-escritorio-4k-HD-para-TV-4K-Ultra-HD-1536x960.jpg); border-radius: 1px; 
+/*background-repeat: no-repeat;*/
+background-size: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -66,8 +88,8 @@ min-height: 100vh;
     max-width: 1000px;
     min-height: 1000px;
     margin: 50px;
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-naranja-abstracto-ondas_1048-1505.jpg?w=1800&t=st=1674599452~exp=1674600052~hmac=ac385f092eaf8cb0c7278998766288ad3d10e66c0bc319f0a5c940fd0c7911b4);
-    display: grid;
+    background-color: #1C6EA4;
+    display: none;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
     
@@ -77,14 +99,14 @@ min-height: 100vh;
     position: relative;
     padding: 40px;
     border: 10px solid #1C6EA4;
-    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-cuadrados-borrosos-colores-naranja_444390-12003.jpg?w=2000);
+    background-image: url(https://www.todofondos.net/wp-content/uploads/1080x1920-FUMO-BLANCO-ARTO-ARGULTO-DE-FOG-ILLUST-iPhone-6-Wallpaper.-niebla.jpg);
     
 }
 
 .contenedor .ladoder {
     position: relative;
     /*background: rgb(5, 222, 246);*/
-    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-cuadrados-borrosos-colores-naranja_444390-12003.jpg?w=2000);
+    background-image: url(https://www.todofondos.net/wp-content/uploads/1080x1920-FUMO-BLANCO-ARTO-ARGULTO-DE-FOG-ILLUST-iPhone-6-Wallpaper.-niebla.jpg);
     padding: 40px;
     border: 10px solid #1C6EA4;
 }
@@ -111,7 +133,7 @@ min-height: 100vh;
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 15px;
     
-    
+
 }
 
 .texto2 {
