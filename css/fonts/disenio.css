@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 0.5cm;
+}
+
+.carta{
+    border: solid white;
+    margin: 10%;
+    width: 700px;
+    height: 700px;
+    
+}
+
+h2,h3 {
+margin: 25px;
+text-shadow: 2px 2px 2px #1C6EA4;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration: underline black;
+text-align: center;
+}
+
+li {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+span {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+
+}
+
+
+body {
+background-image: url(https://img.freepik.com/foto-gratis/fondo-naranja-abstracto-ondas_1048-1505.jpg?w=1800&t=st=1674599452~exp=1674600052~hmac=ac385f092eaf8cb0c7278998766288ad3d10e66c0bc319f0a5c940fd0c7911b4); border-radius: 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-naranja-abstracto-ondas_1048-1505.jpg?w=1800&t=st=1674599452~exp=1674600052~hmac=ac385f092eaf8cb0c7278998766288ad3d10e66c0bc319f0a5c940fd0c7911b4);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    
+}
+
+.contenedor .ladoizq {
+    position: relative;
+    padding: 40px;
+    border: 10px solid #1C6EA4;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-cuadrados-borrosos-colores-naranja_444390-12003.jpg?w=2000);
+    
+}
+
+.contenedor .ladoder {
+    position: relative;
+    /*background: rgb(5, 222, 246);*/
+    background-image: url(https://img.freepik.com/vector-premium/fondo-abstracto-cuadrados-borrosos-colores-naranja_444390-12003.jpg?w=2000);
+    padding: 40px;
+    border: 10px solid #1C6EA4;
+}
+
+.social-bar {
+    float: left;
+    position: fixed;
+    position: left bottom;
+    bottom: 0%;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end ;
+    z-index: 100;
+}
+
+.texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+.texto2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    font-size: small;
+    margin: 10px;
+}
+
+    
+.idiomas .porciento {
+position: relative;
+width: 100%;
+height: 6px;
+background: #000000;
+display: block;
+margin-top: 5px;
+
+}
+
+.idiomas .porciento div {
+position: absolute;
+top: 0%;
+left: 0%;
+height: 100%;
+background: red;
+
+}
+
+/* Popup container */
+.popup {
+    position: center;
+    align-items: center;
+    text-align: left;
+    font-size: 23px ;
+    width: 300px;
+    height: 300px;
+    color: black bold;
+
+  }
+  
+  
+
+
+
